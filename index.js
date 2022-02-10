@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get('/', function(req, res) {
-    res.send('bugfix Hola Mundo 201903872');
+    res.send('hotfix Hola Mundo 201903872');
 });
 
 
